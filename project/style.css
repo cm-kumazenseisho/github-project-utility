@@ -2,3 +2,13 @@
 .project-pane.js-project-pane.js-project-card-details-pane {
   width: 600px!important;
 }
+.expandLane {
+  height: auto !important;
+}
+#js-repo-pjax-container .container-lg {
+  max-width: 82% !important; 
+}
+textarea { overflow-anchor: none; }
+span.css-truncate.css-truncate-target.width-fit {
+  max-width: 200px !important;
+}
