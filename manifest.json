@@ -1,12 +1,15 @@
 {
   "manifest_version": 2,
   "name": "GitHub Project Utility",
-  "version": "1.0.0",
+  "version": "1.1.8",
   "content_scripts": [
     {
-      "matches": ["https://github.com/*/projects/*"],
-      "js": ["jquery-3.3.1.min.js", "project/script.js"],
+      "matches": ["https://github.com/*/projects/*","https://github.com/smartexterior/*/pull/*","https://github.com/smartexterior/*/issues/*"],
+      "js": ["jquery-3.3.1.min.js", "html2canvas.min.js", "dayjs.min.js", "project/script.js"],
       "css": ["project/style.css"]
     }
-  ]
+  ],
+  "icons": {
+    "48": "project/octcat.png"
+  }
 }
